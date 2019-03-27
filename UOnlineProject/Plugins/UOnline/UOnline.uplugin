@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "UOnline",
+	"Description": "A complete plugin for a multiplayer game made with Unreal Engine.",
+	"Category": "Online",
+	"CreatedBy": "Jasper Drescher",
+	"CreatedByURL": "https://github.com/JasperDre/",
+	"DocsURL": "https://github.com/JasperDre/Unreal-Online-Plugin",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UOnline",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	]
+}
