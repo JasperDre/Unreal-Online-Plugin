@@ -26,8 +26,10 @@ public class UOnline : ModuleRules
 			new string[]
 			{
 				"Core",
-				// ... add other public dependencies that you statically link with here ...
-			}
+                "OnlineSubsystem",
+                "OnlineSubsystemUtils",
+                "Steamworks"
+            }
 			);
 			
 		
@@ -37,17 +39,16 @@ public class UOnline : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"SlateCore",
-				// ... add private dependencies that you statically link with here ...	
-			}
+				"SlateCore"
+            }
 			);
 		
 		
 		DynamicallyLoadedModuleNames.AddRange(
 			new string[]
 			{
-				// ... add any modules that your module loads dynamically here ...
-			}
+                "OnlineSubsystemSteam"
+            }
 			);
 	}
 }

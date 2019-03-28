@@ -13,11 +13,21 @@
 	"CanContainContent": true,
 	"IsBetaVersion": true,
 	"Installed": false,
-	"Modules": [
-		{
-			"Name": "UOnline",
-			"Type": "Runtime",
-			"LoadingPhase": "PreLoadingScreen"
-		}
-	]
+  "Modules": [
+    {
+      "Name": "UOnline",
+      "Type": "Runtime",
+      "LoadingPhase": "PreLoadingScreen"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "OnlineSubsystem",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineSubsystemUtils",
+      "Enabled": true
+    }
+  ]
 }

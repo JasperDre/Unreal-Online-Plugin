@@ -13,5 +13,4 @@ UCLASS()
 class UONLINEPROJECT_API AUOnlineProjectGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
 };
